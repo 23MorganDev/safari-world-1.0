@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { FaSafari, FaShieldAlt, FaUsers, FaCar, FaLeaf, FaGlobe } from "react-icons/fa";
 import van from "../assets/customized-safari-van-.jpg";
-import landcruiser from "../assets/gamedrive vehicles kenya.jpg";
+import landcruiser from "../assets/maasai-mara-secret-2.jpg";
+import rhino from "../assets/olpejeta_conservancy.jpg";
 import safariGuide from "../assets/safari_cruiser.jpg";
 
 // ------------------ Styled Components ------------------
@@ -271,9 +272,9 @@ const AboutUs = () => {
             </CardContent>
           </Card>
           <Card>
-            <CardImage src={van} alt="Safari Van" />
+            <CardImage src={rhino} alt="Safari Van" />
             <CardContent>
-              <CardTitle>Safari Van</CardTitle>
+              <CardTitle>Safari to a Rhino conservancy</CardTitle>
               <CardDesc>4x4 safari van equipped with pop-up roof and A/C.</CardDesc>
             </CardContent>
           </Card>
@@ -359,3 +360,5 @@ const AboutUs = () => {
 };
 
 export default AboutUs;
+
+
